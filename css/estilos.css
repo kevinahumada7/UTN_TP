@@ -25,7 +25,7 @@ body
 
 header {
 	width: 100%;
-	background: url('../img/bg.jpg'), #281a0c;
+	background: url('../assets/img/bg.jpg'), #281a0c;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center 0;
@@ -82,7 +82,7 @@ header .textos h3 {
 
 /* ----- ----- MAIN ----- ----- */
 .main {
-	background: url('../img/bg-textura.png');
+	background: url('../assets/img/bg-textura.png');
 	background-repeat: repeat;
 }
 
@@ -95,7 +95,7 @@ header .textos h3 {
 	width: 80%;
 	position: absolute;
 	left: 0;
-	top:0px;
+	top:16px;
 	z-index: 0;
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);

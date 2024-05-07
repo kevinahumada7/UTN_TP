@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Café UTN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/trabaja-con-nosotros.css">
+        <style>
+            img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <div class="contenedor">
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html#acerca-de" id="btn-acerca-de">Acerca de</a>
+                    <a href="index.html#menu" id="btn-menu">Menú</a>
+                    <a href="index.html#galeria" id="btn-galeria">Galería</a>
+                    <a href="index.html#ubicacion" id="btn-ubicacion">Ubicación</a>
+                </nav>
+
+                <div class="textos">
+                    <h1 class="nombre">Sumate a nuestro staff</h1>
+                </div>
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="contenedor"> <br><br><br>
+                <div class="textos">
+                    <h1 class="nombre">Conoce nuestra cafecultura y postulate para trabajar con nosotros</h1><br>
+                </div>
+                <img class="img-fondo" src="https://images.squarespace-cdn.com/content/v1/52eaead0e4b0fd67cc51a9d3/1532112070949-V6ADYPAH7OEZ908I0CQV/iStock-900816038.jpg" alt="Descripción de la imagen"><br><br>
+
+                <h3>Completá los siguientes datos para convertirte en uno de nuestros colaboradores:</h3>
+
+                <form class="formulario-contacto">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <p>
+                        Género:
+                        <input type="radio" name="gender" value="hombre" checked> Hombre
+                        <input type="radio" name="gender" value="mujer"> Mujer
+                        <input type="radio" name="gender" value="otro"> Otro
+                    </p> <br>
+                    <label for="city">Ciudad: </label> <input type="text" name="city"> <br><br>
+                    
+                    <label for="birthdate">Fecha de nacimiento (dd/mm/yyyy): </label> <input type="date" name="birthdate"> <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="archivo">Curriculum: </label> <input type="file" name="archivo" placeholder="Ingrese un archivo pdf"> <br><br>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    
+                    <input type="submit" value="Enviar">
+                </form><br>
+
+                <p>Si usted hace click en el boton "Enviar" la información será enviada a nuestra base de datos.</p> <br><br><br>
+            </div>
+
+            <section class="ubicacion" id="ubicacion">
+                <div class="contenedor">
+                    <h3 class="titulo">Ubicación</h3>
+                    <div class="direccion">
+                        <p class="calle">Av. Bartolomé Mitre 750 (B1870AAU)<br/>Avellaneda, Provincia de Buenos Aires</p>
+                        <p class="telefono">(54) 011 4201-4133</p>
+                        <p class="correo">cafeteria@utn.com</p>
+                    </div>
+                    <div class="horarios">
+                        <h4>Horarios</h4>
+                        <p class="entre-semana">Lunes a Viernes<br />9:00am - 10:00pm</p>
+                        <p class="fin-semana">Sabados y Domingos<br />10:00am - 11:00pm</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13126.795007077702!2d-58.3647051!3d-34.6623101!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3334e1e773297%3A0x38b223e10c24ff93!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%3A%20Facultad%20Regional%20Avellaneda!5e0!3m2!1ses-419!2sar!4v1715106383190!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+        </section>
+
+        <footer>
+            <div class="contenedor">
+                <div class="copyright">
+                    <p>Copyright UTN Café - Desarrollado por el GRUPO D</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
